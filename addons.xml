@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.googledrive" version="0.4.8" name="Google Drive - Chilichingching" provider-name="Chilichingching">
+    <requires>
+        <import addon="xbmc.python" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Plays music and video from your Google Drive account - Downloaded From Chilichingching's Repo</summary>
+        <description>Plays music and video from your Google Drive account.  Not affiliated with Google. Downloaded From Chilichingching's Repo</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+
+</addons>
